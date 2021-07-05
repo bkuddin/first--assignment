@@ -8,7 +8,7 @@ body{
     font-family: 'Livvic', sans-serif;
 }
 
-/*Menu Styles Start*/
+/*Menu Styles*/
 
 .menu-bar{
     background-color: aquamarine;
@@ -36,8 +36,73 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: 800;
-    color: #6e5494;
+    color: #333;
 }
 
 
 /*Menu Styles End*/
+
+/*Hello Section*/
+
+.hello-section{
+    display: flex;
+}
+
+.half-width-text{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.half-width-cover{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-width-cover img{
+    width: 100%;
+}
+
+h1{
+    font-size: 80px;
+    color: #333;
+}
+
+/*for line break*/
+
+.hello-text::after{
+    content: "\a";
+    white-space: pre;
+    
+}
+
+/*for line break*/
+
+.highlight-name{
+    color: #F78667;
+}
+
+p{
+    font-size: 30px;
+    color: #333;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0px 10px 0px;    
+
+}
+
+.link-button:hover{
+    background-image: linear-gradient(45deg, rgb(253, 187, 5), #33A6F3);
+}
+
